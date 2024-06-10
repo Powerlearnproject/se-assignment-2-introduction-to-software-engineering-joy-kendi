@@ -1,1 +1,50 @@
-1.Software engineering is a discipline and systematic approach to the development ,operation maintenance and retirement of software
+1.Software engineering is a discipline and systematic approach to the development ,operation maintenance and retirement of software.
+2.Software engineering refers to computer science branch that deals with the designing,development,testing and maintenance of software applications.It differs from traditional programming in the following ways,
+a)Software engineering follows defined methodologies such as agile and waterfall while traditional programming is less structured.
+b)Software engineering is designed to handle complex systems that may involve multiple components and intergration with other systems as compared to traditional programming that typically deals with smaller less complex programs or scripts.
+c)Software engineering will prioritize testing ,documentation and quality assurance to ensure the software meets standards and is reliable over time while traditional programming may not include comprehensive testing or documentation.
+
+3.
+Planning and requirement analysis.
+This stage involves understanding and documenting what the software needs to do.It is very crucial for identifying the objectives,goals constraints and scope of the project.This stage also involves gathering requirements from stakeholders and developing a project plan and scheduling.
+System design.
+Here the system achitecture and design are outlined based on the requirements gathered in the previous phase.It defines how the software will be built.
+Implementation.
+This is the phase when the actual code is written based on the design document ,intergration of components to form complete software system while following the right standards.
+Testing.
+Testing ensures that the software works as expected and meets requirements.It involves validating and verifying that performs its intended functions optimally.
+Deployment.
+Software is delivered to the user or deployed in the production environment.This phase involves setting up the necessary infrastructure and ensuring the system is operational.
+Maintenance.
+The system is monitored and updated as necessary to ensure it remains functional and relevant over time.This may involve fixing bugs and issues reported by users,enhancing features based on user feedbacks and monitoring system performance and security. 
+Evaluation
+This phase involves assessing the overall performance and success of the project.It includes reviewing the processes and outcomes to learn and improve future projects.
+
+4
+-In agile test automation is intergareted into the development process from the very beginning so testing is continously throughout the development cycle allowing feedback and adjustments while waterfall methodologies follow a linear approach to development testing occuring at the end of the cycle.
+-In agile customers and stakeholders are continously engaged throughout the development process with regular reviews and feedback at the end of each iteration while waterfall model there is limited customer interaction during development as compared to during the requirement phase feedback is gathered after the product has been fully developed and tested.
+-Agile teams are usually small,self organizing and cross functional combining skills and different domains with emphasis on collective ownership and decision making through daily standups and collaborative tools while in waterfall teams are organized by function with specialized roles for different phases commucation is hierarchial with clear chain of command.
+
+
+Waterfall is best suited for projects with clear set of requirements and that don't change much over time and where risk and uncertainity are low while agile is better for exploratory projets where conditions may evolve or change over time.
+Agile is best suited for projects that require frequent changes and updates while waterfall is better for projects with predetermined fixed results.
+
+5.
+Requirements engineering is the systematic process of identifying, documenting, and maintaining the requirements for a software system. It ensures that all stakeholders have a clear understanding of what the software is supposed to achieve, which ultimately guides the development process to meet these expectations effectively.
+Process of requirement engineering;
+Elicitation.
+Involves gathering of requirements from stakeholders including end user customers and subject matter experts.Involves conducting interviews,workshops,surveys observation and reviewing existing documentation to derive requirements.
+Analysis and negotiation.
+To help understand,refine and prioritize gathered requirements.It involves requirement classification into functional,non-functional and domain specific groups,addressing and negoatiating conflicting requirements among stakeholders,assessing the technical and financial feasibility of the requirements and determining importance and urgency of requirements to guide development focus.
+Specification.
+Involves documenting requirements in a detailed and clear manner often in the form of Software Requirements Specification document(SRS);Writing narratives or diagrams that describe interactions between users and the system using diagrams to visually represent the requirements and their relationship.
+Validation.
+To ensure the documented requirements accurately reflect stakeholders needs and feasible to implement through conducting formal reviews of the requirements document with stakeholders,building preliminary vesrions of the system and simulations to check feasibility and completeness of requirements.
+Management.
+Involves change management and ensuring consitency throughout the project lifecycle.
+Importance:
+By clearly understanding what is needed, teams can avoid building unnecessary features, thereby saving time and resources.
+Well-defined requirements help ensure the system complies with relevant standards and regulations.
+A structured approach to requirements management helps in accommodating changes without derailing the project.
+Clear and validated requirements reduce the likelihood of costly rework due to misunderstandings or overlooked needs.
+Clear requirements provide a roadmap for developers, helping them understand what needs to be built and why.
