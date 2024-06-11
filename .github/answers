@@ -1,0 +1,173 @@
+1.Software engineering is a discipline and systematic approach to the development ,operation maintenance and retirement of software.
+
+2.Software engineering refers to computer science branch that deals with the designing,development,testing and maintenance of software applications.It differs from traditional programming in the following ways;
+
+a)Software engineering follows defined methodologies such as agile and waterfall while traditional programming is less structured.
+b)Software engineering is designed to handle complex systems that may involve multiple components and intergration with other systems as compared to traditional programming that typically deals with smaller less complex programs or scripts.
+c)Software engineering will prioritize testing ,documentation and quality assurance to ensure the software meets standards and is reliable over time while traditional programming may not include comprehensive testing or documentation.
+
+3.
+Planning and requirement analysis.
+This stage involves understanding and documenting what the software needs to do.It is very crucial for identifying the objectives,goals constraints and scope of the project.This stage also involves gathering requirements from stakeholders and developing a project plan and scheduling.
+System design.
+Here the system achitecture and design are outlined based on the requirements gathered in the previous phase.It defines how the software will be built.
+Implementation.
+This is the phase when the actual code is written based on the design document ,intergration of components to form complete software system while following the right standards.
+Testing.
+Testing ensures that the software works as expected and meets requirements.It involves validating and verifying that performs its intended functions optimally.
+Deployment.
+Software is delivered to the user or deployed in the production environment.This phase involves setting up the necessary infrastructure and ensuring the system is operational.
+Maintenance.
+The system is monitored and updated as necessary to ensure it remains functional and relevant over time.This may involve fixing bugs and issues reported by users,enhancing features based on user feedbacks and monitoring system performance and security. 
+Evaluation
+This phase involves assessing the overall performance and success of the project.It includes reviewing the processes and outcomes to learn and improve future projects.
+
+4
+-In agile test automation is intergareted into the development process from the very beginning so testing is continously throughout the development cycle allowing feedback and adjustments while waterfall methodologies follow a linear approach to development testing occuring at the end of the cycle.
+-In agile customers and stakeholders are continously engaged throughout the development process with regular reviews and feedback at the end of each iteration while waterfall model there is limited customer interaction during development as compared to during the requirement phase feedback is gathered after the product has been fully developed and tested.
+-Agile teams are usually small,self organizing and cross functional combining skills and different domains with emphasis on collective ownership and decision making through daily standups and collaborative tools while in waterfall teams are organized by function with specialized roles for different phases commucation is hierarchial with clear chain of command.
+
+
+Waterfall is best suited for projects with clear set of requirements and that don't change much over time and where risk and uncertainity are low while agile is better for exploratory projets where conditions may evolve or change over time.
+Agile is best suited for projects that require frequent changes and updates while waterfall is better for projects with predetermined fixed results.
+
+5.
+Requirements engineering is the systematic process of identifying, documenting, and maintaining the requirements for a software system. It ensures that all stakeholders have a clear understanding of what the software is supposed to achieve, which ultimately guides the development process to meet these expectations effectively.
+
+Process of requirement engineering;
+Elicitation.
+Involves gathering of requirements from stakeholders including end user customers and subject matter experts.Involves conducting interviews,workshops,surveys observation and reviewing existing documentation to derive requirements.
+Analysis and negotiation.
+To help understand,refine and prioritize gathered requirements.It involves requirement classification into functional,non-functional and domain specific groups,addressing and negoatiating conflicting requirements among stakeholders,assessing the technical and financial feasibility of the requirements and determining importance and urgency of requirements to guide development focus.
+Specification.
+Involves documenting requirements in a detailed and clear manner often in the form of Software Requirements Specification document(SRS);Writing narratives or diagrams that describe interactions between users and the system using diagrams to visually represent the requirements and their relationship.
+Validation.
+To ensure the documented requirements accurately reflect stakeholders needs and feasible to implement through conducting formal reviews of the requirements document with stakeholders,building preliminary vesrions of the system and simulations to check feasibility and completeness of requirements.
+Management.
+Involves change management and ensuring consitency throughout the project lifecycle.
+
+Importance:
+-By clearly understanding what is needed, teams can avoid building unnecessary features, thereby saving time and resources.
+-Well-defined requirements help ensure the system complies with relevant standards and regulations.
+-A structured approach to requirements management helps in accommodating changes without derailing the project.
+-Clear and validated requirements reduce the likelihood of costly rework due to misunderstandings or overlooked needs.
+-Clear requirements provide a roadmap for developers, helping them understand what needs to be built and why.
+
+6.
+Modularity is a fundamental design principle in software engineering aimed at creating software in a way that minimizes dependencies among the components of a system. This helps to localize the impact of changes, simplifies maintenance, and enhances the understandability of the system.
+How Modularity Improves Maintainability and Scalability:
+Improved Maintainability:
+Isolation of Changes.Changes in one module usually do not impact others, making it easier to locate and fix bugs or add new features.
+Simplified Debugging.When issues arise, it's easier to debug a smaller, self-contained module rather than a large monolithic system.
+Ease of Testing. Each module can be tested independently, allowing for more focused and thorough testing procedures.
+Incremental Development.Modules can be developed and updated incrementally, allowing teams to iteratively improve the system without massive overhauls.
+
+Improved Scalability:
+Parallel Development.Different teams can work on different modules simultaneously, speeding up development and allowing for specialization.
+Resource Allocation.Modules can be scaled independently. For example, a web service can allocate more resources to modules that handle high traffic.
+Flexible Deployment. In distributed systems, modules can be deployed on different servers or services, enhancing performance and reliability.
+Easier Integration. New features or third-party components can be integrated into the system more easily when they are modular, minimizing the impact on existing components.
+
+7.
+Software testing is the act of checking whether software satisfies expectations.It involves verifying and validating that a software application is free of bugs, meets the technical requirements set by its design and development, and satisfies user requirements efficiently and effectively.
+Levels of software testing.
+-Unit testing.It a level of the software testing process where individual units/components of a software/system are tested. The purpose is to validate that each unit of the software performs as designed. This also helps to detect and fix bugs at an early stage, thus reducing the cost and complexity of fixing issues later in the development process.
+-Intergration testing.Integration testing focuses on the interactions and interfaces between integrated units or components of the software. It aims to identify issues that occur when units are combined and interact with each other.
+-System testing.It is a level of the software testing process where a complete, integrated system/software is tested. The purpose of this test is to evaluate the system's compliance with the specified requirements. 
+-Acceptance testing.It is a level of the software testing process where a system is tested for acceptability. The purpose of this test is to evaluate the system's compliance with the business requirements and assess whether it is acceptable for delivery. It is done by end-users or clients.
+
+Testing in software development is crucial because;
+-Testing identifies security vulnerabilities and helps mitigate risks, protecting the software from potential exploits and ensuring data integrity and confidentiality.
+-Thorough testing ensures that the software meets user requirements and expectations, leading to higher user satisfaction and reduced churn or complaints.
+-Testing ensures the software meets the desired quality standards and performs as expected in different scenarios. It helps to deliver a robust and reliable product.
+
+8.
+Version Control Systems are fundamental tools in modern software development that help manage changes to source code or other collections of information enabling effective management of code changes, collaboration among teams, and maintenance of project history.
+Importance.
+-Tracking changes.VCS keeps a detailed history of all changes made to a project. This allows developers to understand the evolution of the code, identify when and why changes were made, and restore previous versions if needed.
+-Collaboration.Multiple developers can work on the same project simultaneously without interfering with each other's work. VCS manages changes from different contributors, allowing them to merge their work and resolve conflicts efficiently.
+-Backup and recovery.The repository acts as a backup of the entire project. If a system failure occurs, the project can be restored from the VCS.
+-Accountability and auditing.Each change is associated with a user and a timestamp, providing an audit trail that can be used to track responsibility and review the history of modifications.
+
+Popular Version Control Systems and their features.
+Git.
+Git is the most widely used distributed version control system.it is known for its speed and efficiency.
+
+Features.
+-Distributed Architecture. Each developer has a complete copy of the repository.
+-Branching and Merging. Advanced branching capabilities allow for flexible and efficient workflows.
+-Staging Area.Allows changes to be reviewed before committing them to the repository.
+-Performance.Optimized for performance, even with large projects.
+-Open Source.Git is open-source and has a large community.
+
+Subversion(SVN)
+It is a centralized version control system.
+Features.
+-Centralized Repository.All data is stored on a central server, simplifying management and security.
+-Atomic Commits.Ensures that commits are made as single, atomic operations, preventing partial commits.
+-Directory Versioning.Supports versioning of entire directory structures.
+-Comprehensive Tool Support. Works well with a variety of IDEs and build tools.
+-Access Control. Fine-grained control over permissions.
+
+Mercurial
+Features.
+-Distributed Architecture.Similar to Git, each developer has a complete repository clone.
+-Simplicity.Designed to be user-friendly with a simple command set.
+-Scalability.Handles large repositories and many branches efficiently.
+-Extensible.Supports extensions for additional features.
+Cross-Platform: Works across various operating systems.
+
+Perforce(Helix Core)
+Features.
+-Centralized Version Control.Combines central repository control with the ability to handle large binary files.
+-High Performance.Optimized for handling large files and repositories with extensive history.
+-Fine-Grained Access Control.Robust security and access controls.
+-Atomic Operations.Ensures consistency and reliability in commits.
+-Integration.Well-integrated with CI/CD and development tools.
+
+9.
+Role of a software project manager.
+A Software Project Manager (SPM) plays a critical role in planning, executing, and closing software projects. They ensure that the project meets its objectives on time and within budget while managing resources, risks, and stakeholders. They act as the bridge between the technical team and other stakeholders, facilitating communication, resolving conflicts, and ensuring that the project's goals align with business needs.
+Key responsibilities of a software project manager.
+-Project planning.Defining the project scope,objectives and deliverables in collaboration with stakeholders.Breaking down of project into manageable tasks and resource planning.
+-Scheduling and time management.The project manager  ensures teams adhere to the schedule and manage any deviations effectively.
+-Budget management.Project managers help estimate project costs and prepare budgets,monitor actual expenses against the budget and manage financial resources and implement cost saving measures and adjust the budget as needed to avoid overuns.
+-Risk managing.This involves identification of potential risks to the project,developing strategies to manage the risks and preparing contigency plans for dealing with unforeseen issues.
+-Stakeholder management.This involves stakeholder identification,communication and expectation management.
+Challenges.
+-Uncontrolled changes or continuous growth in a project's scope leading to extended timelines,increased costs and can compromise the projects quality.
+-Resource constraints where resorces are not sufficient to meet project demands.
+-Failure in communication among team members or between the team and stakeholders leading to misunderstandings, misalignment, and can derail the project.
+-Ensuring that the project deliverables meet the required standards.Poor quality can lead to rework, increased costs, and customer dissatisfaction.
+
+10.
+Software Maintenance refers to the process of modifying and updating software applications after their initial deployment. It encompasses all activities required to keep the software operational, improve its performance, adapt it to changing environments, and ensure it continues to meet user needs.
+
+Types of maintenance activities.
+-Corrective maintenance: Corrective maintenance of a software product may be essential either to rectify some bugs observed while the system is in use, or to enhance the performance of the system.
+-Adaptive maintenance: This includes modifications and updations when the customers need the product to run on new platforms, on new operating systems, or when they need the product to interface with new hardware and software.
+-Perfective maintenance: A software product needs maintenance to support the new features that the users want or to change different types of functionalities of the system according to the customer's demands.
+-Preventive maintenance: This type of maintenance includes modifications and updations to prevent future problems with the software. It goals to attend to problems, which are not significant at this moment but may cause serious issues in the future.
+
+Why is maintenance an essential part of the software lifecycle;
+-Software maintenance extends the useful life of an application. As technology evolves and business needs change, maintenance activities ensure that the software remains functional and relevant.
+-Addressing security vulnerabilities through corrective and preventive maintenance helps protect against potential threats and breaches.
+-Adaptive maintenance ensures that the software can function in new or changing environments, such as new operating systems, hardware, or business processes This helps keep the software compatible and effective in its operational context, preventing obsolescence.
+-Ensures that software remains compliant with evolving industry standards, regulations, and legal requirements.Avoids legal issues and penalties, and maintains the organization's reputation and operational licenses.
+-Maintenance activities ensure that software remains reliable and available, supporting the continuous operation of business-critical processes.This minimizes downtime and disruption, contributing to overall business stability and customer satisfaction.
+
+11.
+-Privacy and data protection. Handling personal and sensitive data responsibly to protect individual's privacy.
+-Security and safety.Developing software that is secure and safe to use, preventing potential harm to users or society.
+-Bias and Fairness.Identifying and mitigating biases in data and algorithms that could lead to unfair treatment or discrimination.
+-Intellectual Property and Ownership.Respecting intellectual property rights and accurately attributing ownership of code and ideas.
+-Quality and Reliability.Ensuring that software meets high standards of quality and reliability to prevent potential harm or inconvenience to users.
+-Transparency and Accountability.Being transparent about how software works and being accountable for its outcomes and impacts.
+
+How to ensure adherence to ethical standards:
+-Adopting Ethical Codes and Frameworks.Following established guidelines and codes of conduct provided by proffesional bodies  that provide a clear set of principles and standards to guide behaviour and decision-making.
+-Education and Training.Engage in continuous learning about ethical issues and best practices in software engineering.This helps keep engineers informed about emerging ethical challenges and equips them with the knowledge to adress them effectively.
+-Promoting Transparency and Accountability by being open about how software works including limitations and potential impacts.
+-Regular Ethical Reviews and Audits to evaluate the ethical performance of software and development processes.
+
+
